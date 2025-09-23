@@ -20,8 +20,8 @@ Console.WriteLine("****************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                 *");
 Console.WriteLine("****************************************************");
 
-double r = 4.32;
-double h = 1.23;
+double r = 1.4142;
+double h = 1;
 Console.WriteLine("Сторона H цилиндра = " + h);
 Console.WriteLine("Сторона R цилиндра = " + r);
 
