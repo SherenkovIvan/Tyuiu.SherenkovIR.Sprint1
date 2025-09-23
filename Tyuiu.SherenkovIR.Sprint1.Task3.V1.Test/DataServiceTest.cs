@@ -8,9 +8,9 @@ namespace Tyuiu.SherenkovIR.Sprint1.Task3.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double r = 4.32;
-            double h = 1.23;
-            double wait = 5.314;
+            double r = 1.4142;
+            double h = 1;
+            double wait = 6.283;
             var res = ds.CylinderVolume(r, h);
             Assert.AreEqual(wait , res);
         }
