@@ -9,9 +9,9 @@ namespace Tyuiu.SherenkovIR.Sprint1.Task2.V13.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 4;
+            int x = 6;
             var res = ds.ConvertMilesToKm (x);
-            Assert.AreEqual (6.761, res);
+            Assert.AreEqual (10.142, res);
         }
     }
 }
