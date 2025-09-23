@@ -7,7 +7,7 @@ namespace Tyuiu.SherenkovIR.Sprint1.Task2.V13.Lib
 
         public double ConvertMilesToKm(int value)
         {
-            return Math.Round(value * 1.69034, 3);
+            return Math.Round(value * 1.6093, 3);
         }
     }
 }
